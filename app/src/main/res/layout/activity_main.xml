@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vito.piechartplayground.MainActivity"
+    >
+    <!--<com.example.vito.piechartplayground.Pacpie-->
+    <!--android:id="@+id/pacpieChart"-->
+    <!--xmlns:pacpie="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="10dp"-->
+    <!--pacpie:activate_rotation="true"-->
+    <!--pacpie:lineAntiAlias="true"-->
+    <!--pacpie:lineDefaultColor="@color/default_line_color"-->
+    <!--pacpie:lineStrokeWidth="3.0"-->
+    <!--pacpie:sliceAntiAlias="true"-->
+    <!--pacpie:sliceDefaultColor="@color/default_slice_color"-->
+    <!--pacpie:sliceStrokeWidth="0.0"/>-->
+
+
+    <!--<com.example.vito.piechartplayground.PieChart-->
+        <!--android:id="@+id/pie_chart"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="1"-->
+        <!--/>-->
+
+    <com.example.vito.piechartplayground.PercentView
+        android:id="@+id/percentview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>
